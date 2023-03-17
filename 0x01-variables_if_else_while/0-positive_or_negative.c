@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Main - prints the value of n and say if it is positive or negative
+ * main - Prints a random number and states whether
+ *        it is positive, negative, or zero.
  *
- *
- * Retuen :Always 0 (success)
- */
+ * Return: Always 0.
+*/
 
 int main(void)
 {
