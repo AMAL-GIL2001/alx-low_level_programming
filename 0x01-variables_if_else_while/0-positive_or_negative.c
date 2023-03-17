@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Main - wheter n is positive ,negative or zero
+ * Main - prints the value of n and say if it is positive or negative
  *
  *
  * Retuen :Always 0 (success)
