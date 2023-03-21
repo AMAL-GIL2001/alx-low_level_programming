@@ -3,7 +3,6 @@
 /**
   * print_alphabet - Make the alphabet
   *
-  * main:  calls the function *
   */
 
 void print_alphabet(void)
@@ -11,14 +10,7 @@ void print_alphabet(void)
 	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
+		_putchar(c);
 
-	putchar('\n');
-}
-
-int main(void)
-{
-	print_alphabet();
-
-	return (0);
+	_putchar('\n');
 }
