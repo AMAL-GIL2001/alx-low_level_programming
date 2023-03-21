@@ -1,4 +1,4 @@
-#include" _putchar.c "
+#include "_putchar.c"
 /**
  * main - prints _putchar, followed by a new line.
  *
@@ -6,7 +6,7 @@
  */
 
 int main(void)
-{ 
+{
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
