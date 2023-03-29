@@ -8,19 +8,19 @@
  * @s : string argument
  * Return: an integer 
  */
-
 int _atoi(char *s)
 {
 	int i;
 	int len = strlen(s);
-        int num;
+	int num;
 
 	for (i = 0; i < len; i++)
 	{
-		if (s[i] >= '0' && s[i] <= '9')
-		{
+		if(s[i] >= '0' && s[i] <= '9')
 			num = s[i];
-			return (num);
-		}
+		else
+	
+			continue;
 	}
+	return (num);
 }
