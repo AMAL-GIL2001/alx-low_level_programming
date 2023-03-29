@@ -14,12 +14,18 @@ int _atoi(char *s)
 	int len = strlen(s);
 	int num;
 	int count = 0;
+	int digit;
 
 	for (i = 0; i < len; i++)
 	{
+		if(s[i] == '-')
+			digit++;
 		if(s[i] >= '0' && s[i] <= '9')
 		{
-			num = num * 10 + (s[i] + 48);
+			digit = s[i] - 48;
+			if (digit %2 == 0)
+				digit = -digit;
+			num = num * 10 + digit;
                         count++;  
 		}
 		else
