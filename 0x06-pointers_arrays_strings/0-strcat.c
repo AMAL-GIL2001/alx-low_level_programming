@@ -11,19 +11,14 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int i, j;
-        int len1 = strlen (src);
-	int len2 = strlen (dest);
-        int len = len1 + len2;
+	int i;
+	int len = strlen(dest);
 
-	for (j = 0; j < len; j++)
-	{
-		for ( i = 0; i < len1; i++)
-		{
-			dest[j] = dest[i];
-		}
-		
-		dest [j] = src [i];
-	}
+	for (i = 0; src[i] != '0'; i++)
+		dest[len + i] = src[i];
+
+	dest[len + i] = '0';
+
 	return (dest);
+
 }
