@@ -11,4 +11,7 @@ int is_prime_number(int n);
 int _putchar(char c);
 int _sqrt(int n, int x);
 int is_divisible(int num, int div);
+int find_strlen(char *s);
+int check_palindrome(char *s, int len, int index);
+int is_palindrome(char *s);
 #endif
